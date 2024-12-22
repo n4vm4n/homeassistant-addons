@@ -28,6 +28,7 @@ RUN apt-get update \
         bash-completion \
         procps \
         whois \
+        printer-driver-brlaser \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 
