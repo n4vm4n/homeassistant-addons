@@ -14,4 +14,6 @@ ln -v -s /data/cups /etc/cups
 
 bashio::log.info "Starting CUPS server as CMD from S6"
 
-cupsd -f
+cupsd -c /data/cupsd.conf -f
+
+bashio::log.info "Reached end of script"
