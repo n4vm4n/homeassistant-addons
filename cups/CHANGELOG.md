@@ -2,6 +2,11 @@
 
 <!-- towncrier release notes start -->
 
+## [3.0.3.2] - 2024-12-23
+### Added
+- Suppport for printer-driver-brlaser (Brother printer driver package)
+
+
 ## [3.0.3.1] - 2024-03-11
 ### Added
 - Support for `armv7` - see [#243](https://github.com/MaxWinterstein/homeassistant-addons/issues/243)
